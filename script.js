@@ -1,8 +1,7 @@
-// Carousel functionality
 const dots = document.querySelectorAll(".dot");
 const track = document.querySelector(".carousel-track");
 let currentSlide = 0;
-const slideWidth = 370; // card width + gap
+const slideWidth = 370; 
 
 dots.forEach((dot, index) => {
     dot.addEventListener("click", () => {
